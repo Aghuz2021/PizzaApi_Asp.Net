@@ -64,4 +64,19 @@ Transfer-Encoding: chunked
 # Adición de un almacén de datos
 Necesita una clase model para representar una pizza en el inventario. El modelo contiene propiedades que representan las características de una pizza. El modelo se usa para pasar datos en la API web y para conservar opciones de pizza en el almacén de datos.
 
-En esta unidad, ese almacén de datos es un servicio de almacenamiento en caché en memoria local simple. En una aplicación real se consideraría el uso de una base de datos, como <b>SQL Server </b>, con <b>Entity Framework Core </b>.
+Ese almacén de datos es un servicio de almacenamiento en caché en memoria local simple. En una aplicación real se consideraría el uso de una base de datos, como <b>SQL Server </b>, con <b>Entity Framework Core </b>.
+
+# Generando carpeta Models (Creación de un modelo de pizza)
+<li>
+Creación de un modelo de pizza
+</li>
+
+```CLI de .NET
+mkdir Models
+```
+La raíz del proyecto ahora contiene un directorio Models con un archivo Pizza.cs vacío. El nombre del directorio Models es una convención. El nombre del directorio procede de la arquitectura Modelo-Vista-Controlador que usa la API web.
+
+
+
+
+
