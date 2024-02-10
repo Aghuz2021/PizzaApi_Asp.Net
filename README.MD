@@ -25,3 +25,38 @@ Ejecute el comando siguiente de la CLI de .NET Core en el shell de comandos:.
 ```CLI de .NET
 dotnet run
 ```
+# Exploración con archivos .http
+En el proyecto se incluye ContosoPizza.http, un archivo que se usa para probar los puntos de conexión de API a través de un formato estándar. Los archivos .http se admiten en varios IDE, incluidos Visual Studio y dentro de Visual Studio Code con la extensión de cliente REST instalada.
+
+Abra el archivo ContosoPizza.http.
+
+Este archivo se ha configurado previamente con las variables de @ContosoPizza_HostAddress y un comando GET que llama a /weatherforecast/ que acepta application/json.
+
+Seleccione el comando Sent Request encima de GET, que enviará una solicitud al servicio en ejecución.
+
+Al llamar a este comando, se abrirá una ventana de respuesta con una salida similar a la que vimos en el explorador:
+
+```CLI de .NET
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: application/json; charset=utf-8
+Date: Wed, 17 Jan 2024 16:46:40 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+
+[
+    {
+        "date": "2024-01-18",
+        "temperatureC": -2,
+        "temperatureF": 29,
+        "summary": "Warm"
+    },
+    {
+        "date": "2024-01-19",
+        "temperatureC": 24,
+        "temperatureF": 75,
+        "summary": "Chilly"
+    },
+    // ..
+]
+```
