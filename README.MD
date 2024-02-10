@@ -13,3 +13,6 @@ Para configurar un proyecto de .NET para que funcione con API web se usa Visual 
 
 ``````CLI de .NET
 dotnet new webapi -controllers -f net8.0
+```
+
+El comando usa una plantilla de proyecto de ASP.NET Core con el alias webapi, para aplicar scaffolding a un proyecto de API web basado en C#. Se crea un directorio ContosoPizza. Este directorio contiene un proyecto ASP.NET Core que se ejecuta en .NET. El nombre del proyecto coincide con el nombre del directorio ContosoPizza.
