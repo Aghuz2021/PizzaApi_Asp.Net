@@ -60,3 +60,8 @@ Transfer-Encoding: chunked
     // ..
 ]
 ```
+
+# Adición de un almacén de datos
+Necesita una clase model para representar una pizza en el inventario. El modelo contiene propiedades que representan las características de una pizza. El modelo se usa para pasar datos en la API web y para conservar opciones de pizza en el almacén de datos.
+
+En esta unidad, ese almacén de datos es un servicio de almacenamiento en caché en memoria local simple. En una aplicación real se consideraría el uso de una base de datos, como <b>SQL Server </b>, con <b>Entity Framework Core </b>.
