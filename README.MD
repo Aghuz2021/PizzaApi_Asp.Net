@@ -21,6 +21,7 @@ El comando usa una plantilla de proyecto de ASP.NET Core con el alias webapi, pa
 <li>
 Ejecute el comando siguiente de la CLI de .NET Core en el shell de comandos:.
 </li>
+
 ```CLI de .NET
 dotnet run
 ```
