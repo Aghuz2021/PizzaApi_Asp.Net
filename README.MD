@@ -78,7 +78,9 @@ La raíz del proyecto ahora contiene un directorio Models con un archivo Pizza.c
 
 # Incorporación de un servicio de datos
 Tendra que crear una carperta de nombre services y agregar una clase llamada PizzaService.cs 
+# Compilación del proyecto de API web
+Ejecute el siguiente comando para compilar la aplicación:
 
-
-
-
+```CLI de .NET
+donet build
+```
