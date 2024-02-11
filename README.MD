@@ -76,6 +76,8 @@ mkdir Models
 ```
 La raíz del proyecto ahora contiene un directorio Models con un archivo Pizza.cs vacío. El nombre del directorio Models es una convención. El nombre del directorio procede de la arquitectura Modelo-Vista-Controlador que usa la API web.
 
+# Incorporación de un servicio de datos
+Tendra que crear una carperta de nombre services y agregar una clase llamada PizzaService.cs 
 
 
 
